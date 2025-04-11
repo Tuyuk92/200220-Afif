@@ -1,0 +1,22 @@
+[
+    {
+        "id": "bc4dfb6f-51e9-42b1-a6ae-374754c1e428",
+        "name": "harry",
+        "department": "school",
+        "designation": "teacher",
+        "gross_salary": 12412148.0,
+        "tax": 1244.0,
+        "bonus": 11245.0,
+        "net_salary": 12422149.0
+    },
+    {
+        "id": "52888479-580f-429f-81a1-590bf772cecf",
+        "name": "goku",
+        "department": "school",
+        "designation": "fighting",
+        "gross_salary": 356123512.0,
+        "tax": 124.0,
+        "bonus": 5321.0,
+        "net_salary": 356128709.0
+    }
+]
