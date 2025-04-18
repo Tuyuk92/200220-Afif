@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Form</title>
+</head>
+<body>
+    <h2>Employee Salary Form</h2>
+    <form method="POST" action="/result/">
+        {% csrf_token %}
+        Name: <input type="text" name="name"><br><br>
+        Age: <input type="number" name="age"><br><br>
+        Company: <input type="text" name="company"><br><br>
+        Gross Salary: <input type="number" name="gross"><br><br>
+        Tax (%): <input type="number" name="tax"><br><br>
+        Bonus (%): <input type="number" name="bonus"><br><br>
+        <input type="submit" value="Calculate">
+    </form>
+    <br><br>
+    <h3>Go to Jumble Page</h3>
+    <form method="GET" action="/jumble/">
+        Enter a word: <input type="text" name="word">
+        <button type="submit">Jumble</button>
+    </form>
+</body>
+</html>
